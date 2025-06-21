@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alpaca Generator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>ALPACA GENERATOR</h1>
+        </div>        
+        <div class="main-content">
+            <div class="alpaca-display">
+                <div class="alpaca-container" id="alpacaContainer">
+                </div>
+            </div>
+            
+            <div class="controls">
+                <div class="control-section">
+                    <div class="section-title">Accessorize the Alpacas</div>
+                    <div class="button-group" id="categoryButtons">
+                        <!-- Category buttons will be added dynamically -->
+                    </div>
+                </div>
+                
+                <div class="control-section">
+                    <div class="section-title">Style</div>
+                    <div class="style-buttons" id="styleButtons">
+                        <!-- Style options will be added dynamically -->
+                    </div>
+                </div>
+                
+                <div class="action-buttons">
+                    <button class="action-btn random-btn" id="randomBtn">
+                        Random
+                    </button>
+                    <button class="action-btn download-btn" id="downloadBtn">
+                        Download
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
