@@ -401,14 +401,3 @@ body {
 .style-buttons::-webkit-scrollbar-thumb:hover {
     background: rgba(102, 126, 234, 0.8);
 }
-
-/* Fade animations for modals */
-@keyframes fadeIn {
-    from { opacity: 0; }
-    to { opacity: 1; }
-}
-
-@keyframes fadeOut {
-    from { opacity: 1; }
-    to { opacity: 0; }
-}
